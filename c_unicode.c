@@ -1,9 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>
-#ifndef _WIN32
-#define _WIN32
-#endif
 
 #if defined(_WIN32) || defined(WIN32) || defined(_WIN64) || defined(WIN64) || defined(__APPLE__)
 
